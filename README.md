@@ -1,3 +1,4 @@
+![]()
 # Credit Risk Classification
 ## Utilizing diverse techniques to develop and assess a credit risk model using historical lending data from a peer-to-peer lending company.
 
@@ -24,8 +25,7 @@ The first part of the analysis is focused on creating a Logistic regression mode
   * recall of low_risk class: 100%
   * recall of high-risk class: 100%
 
-
-
 ## Summary
-
+Between the two models, the one trained on balanced data is a better option because its performance on healthy loans is not degraded, but its performance on high-risk loans is improved. 
+The importance of each class depends on the application. For example identifying healthy loans can be essential to de_risk investing in peer-to-peer loans; on the other hand, identifying high-risk loans can be necessary for the lending platform not to approve it for their market health.
 
