@@ -1,23 +1,20 @@
-# credit-risk-classification
-Utilizing diverse techniques to develop and assess a credit risk model using historical lending data from a peer-to-peer lending company.
-# Module 12 Report Template
+# Credit Risk Classification
+## Utilizing diverse techniques to develop and assess a credit risk model using historical lending data from a peer-to-peer lending company.
 
-## Overview of the Analysis
+The purpose of this analysis is to find the risk factors of a peer-to-peer lending company by dividing the loans into two classes: low_risk and high_risk.
+the feature that have been used for this analysis are loan_size, interest_rate, borrower_income, debt_to_income, num_of_accounts, derogatory_marks and otal_debt.
+The label  has the following ratio of low_risk to high-risk loan status in the original dataset:75036/2500. that is not balanced.
+The first part of the analysis is focused on creating a Logistic regression model and fitting it on the original dataset, then in the second part, the data is resampled to balance the two classes by oversampling the minority class and redoing the logistic regression modeling again. 
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
+## Machine learning models evaluation
 
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
-
-## Results
-
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
-
-* Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
+* Logistic model trained on the original dataset:
+  * balance accuracy score: 94%
+  * Accuracy: 99%
+  * precision of low-risk class: 100%
+  * precision of high-risk class: 100%
+  * recall of low_risk class: 84%
+  * recall of high_risk class: 89%
 
 
 
