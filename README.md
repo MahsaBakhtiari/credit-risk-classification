@@ -1,6 +1,5 @@
 ![](https://hbr.org/resources/images/article_assets/2020/11/Nov20_06_1215016292.jpg)
 # Credit Risk Classification
-## Utilizing diverse techniques to develop and assess a credit risk model using historical lending data from a peer-to-peer lending company.
 
 The purpose of this analysis is to find the risk factors of a peer-to-peer lending company by dividing the loans into two classes: low_risk and high_risk.
 the feature that have been used for this analysis are loan_size, interest_rate, borrower_income, debt_to_income, num_of_accounts, derogatory_marks and otal_debt.
