@@ -1,4 +1,4 @@
-![]()
+![](https://hbr.org/resources/images/article_assets/2020/11/Nov20_06_1215016292.jpg)
 # Credit Risk Classification
 ## Utilizing diverse techniques to develop and assess a credit risk model using historical lending data from a peer-to-peer lending company.
 
